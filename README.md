@@ -1,8 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Для запуска проекта использовать команду npm i, далее npm run dev.
 
-Currently, two official plugins are available:
+http://localhost:5173/ - тут список постов
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+http://localhost:5173/create- тут список постов
+http://localhost:5173/register - регистрация
+http://localhost:5173/login - логин
+
+
+Ссылка на репозиторий с беком:
+
+https://github.com/karaciubamikhail/SocialNetwork-back
+
+Для бэка обязательно нужно установить mysql и создать базу 
+данные можно поставить в .env
