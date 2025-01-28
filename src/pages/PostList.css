@@ -1,0 +1,101 @@
+/* Основной контейнер для списка постов */
+.post-list {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f7f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стили для карточки поста */
+  .post-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .post-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Заголовок поста (аватар и информация о пользователе) */
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .author-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .author-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .author-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .post-date {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  /* Стили для контента поста */
+  .post-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+  }
+  
+  /* Стили для изображений */
+  .post-media {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Блок с действиями (лайк и комментарий) */
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .like-button, .comment-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-button:hover, .comment-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .like-button:focus, .comment-button:focus {
+    outline: none;
+  }
+  
+  /* Дополнительные стили для текста */
+  .post-content {
+    margin-bottom: 10px;
+  }
+  

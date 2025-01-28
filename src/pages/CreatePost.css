@@ -1,0 +1,99 @@
+.create-post-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .create-post-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Стили для формы */
+  .create-post-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .content-textarea:focus {
+    border-color: #007bff;
+  }
+  
+  /* Стили для выбора файла */
+  .file-input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+  }
+  
+  .file-input:focus {
+    outline: none;
+  }
+  
+  /* Превью изображения */
+  .file-preview {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  
+  .file-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Кнопка отправки поста */
+  .submit-btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn:focus {
+    outline: none;
+  }
+  
+  /* Ошибка */
+  .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }

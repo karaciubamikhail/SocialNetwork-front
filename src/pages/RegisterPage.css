@@ -1,0 +1,64 @@
+.register-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .register-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для формы */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .register-input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Кнопка регистрации */
+  .register-btn {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-btn:focus {
+    outline: none;
+  }
+  
+  /* Ошибка */
+  .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+  }
